@@ -15,7 +15,15 @@ while True:
 print(f"Hello {name}! You are {age} years old")
 
 
-# Convert a number of minutes given by the user into hours and minutes (e.g., 130 minutes → 2 hours and 10 minutes).
+# Get input from the user
+total_minutes = int(input("Enter the number of minutes: "))
+
+# Calculate hours and minutes
+hours = total_minutes // 60
+minutes = total_minutes % 60
+
+# Display result
+print(f"{total_minutes} minutes = {hours} hour(s) and {minutes} minute(s)")
 
 
 # Take two numbers as input, and print their sum, difference, product, and quotient.
