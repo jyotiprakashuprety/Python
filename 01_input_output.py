@@ -29,13 +29,23 @@
 # Take two numbers as input, and print their sum, difference, product, and quotient.
 num1 = int(input("Enter number 1"))
 num2 = int(input("Enter number 2"))
+operation = input("Enter Operation(could be "+", "-", "*", "/"):")
 
+operation = "+"  # could be "+", "-", "*", "/"
 
-sum = num1+num2
-difference = num1 - num2
-product = num1*num2
-division = num1/num2
+match operation:
+    case "+":
+        result = num1 + num2
+    case "-":
+        result = num1 - num2
+    case "*":
+        result = num1 * num2
+    case "/":
+        result = num1 / num2 if num2 != 0 else "Error: Division by zero"
+    case _:
+        result = "Invalid operation"
 
+print(result)
 
 
 
