@@ -32,6 +32,11 @@ num2 = int(input("Enter number 2"))
 
 
 sum = num1+num2
+difference = num1 - num2
+product = num1*num2
+division = num1/num2
+
+
 
 
 
