@@ -31,8 +31,6 @@ num1 = int(input("Enter number 1"))
 num2 = int(input("Enter number 2"))
 operation = input("Enter Operation(could be "+", "-", "*", "/"):")
 
-operation = "+"  # could be "+", "-", "*", "/"
-
 match operation:
     case "+":
         result = num1 + num2
@@ -45,7 +43,8 @@ match operation:
     case _:
         result = "Invalid operation"
 
-print(result)
+print(f"The result is : {result} ")
+
 
 
 
