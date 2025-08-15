@@ -52,5 +52,6 @@ print(f"The result is : {result} ")
 # Ask for a string and print it in uppercase, lowercase, and title case.
 string1 = input("Enter the String:")
 string2 = input("Enter the String:")
+string3 = input("Enter the String:")
 
 # Ask for a word and print how many letters it has.
